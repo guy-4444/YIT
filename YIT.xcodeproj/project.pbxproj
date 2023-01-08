@@ -13,6 +13,19 @@
 		8C98BFD62966DEF4001054E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C98BFD42966DEF4001054E1 /* Main.storyboard */; };
 		8C98BFD82966DEF7001054E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C98BFD72966DEF7001054E1 /* Assets.xcassets */; };
 		8C98BFDB2966DEF7001054E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C98BFD92966DEF7001054E1 /* LaunchScreen.storyboard */; };
+		8C98BFE32966E1FC001054E1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFE22966E1FC001054E1 /* Character.swift */; };
+		8C98BFE52966E29D001054E1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFE42966E29D001054E1 /* ApiManager.swift */; };
+		8C98BFE72966E3A9001054E1 /* RaMData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFE62966E3A9001054E1 /* RaMData.swift */; };
+		8C98BFE92966EA77001054E1 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFE82966EA77001054E1 /* CharacterCell.swift */; };
+		8C98BFEB29683300001054E1 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFEA29683300001054E1 /* TableController.swift */; };
+		8C98BFED296833F5001054E1 /* CharacterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFEC296833F5001054E1 /* CharacterTableCell.swift */; };
+		8C98BFEF29683BB6001054E1 /* CharacterCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C98BFEE29683BB6001054E1 /* CharacterCustomCell.xib */; };
+		8C98BFF12969E052001054E1 /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFF02969E052001054E1 /* CharacterController.swift */; };
+		8C98BFF3296A0249001054E1 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFF2296A0249001054E1 /* EpisodeCell.swift */; };
+		8C98BFF5296A0DF3001054E1 /* EpisodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFF4296A0DF3001054E1 /* EpisodeController.swift */; };
+		8C98BFF7296A1006001054E1 /* ApiEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFF6296A1006001054E1 /* ApiEpisode.swift */; };
+		8C98BFF9296A103B001054E1 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFF8296A103B001054E1 /* Episode.swift */; };
+		8C98BFFD296B101F001054E1 /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C98BFFC296B101F001054E1 /* ImageUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		8C98BFD72966DEF7001054E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C98BFDA2966DEF7001054E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C98BFDC2966DEF7001054E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C98BFE22966E1FC001054E1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8C98BFE42966E29D001054E1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		8C98BFE62966E3A9001054E1 /* RaMData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaMData.swift; sourceTree = "<group>"; };
+		8C98BFE82966EA77001054E1 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		8C98BFEA29683300001054E1 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		8C98BFEC296833F5001054E1 /* CharacterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableCell.swift; sourceTree = "<group>"; };
+		8C98BFEE29683BB6001054E1 /* CharacterCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCustomCell.xib; sourceTree = "<group>"; };
+		8C98BFF02969E052001054E1 /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
+		8C98BFF2296A0249001054E1 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		8C98BFF4296A0DF3001054E1 /* EpisodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeController.swift; sourceTree = "<group>"; };
+		8C98BFF6296A1006001054E1 /* ApiEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEpisode.swift; sourceTree = "<group>"; };
+		8C98BFF8296A103B001054E1 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		8C98BFFC296B101F001054E1 /* ImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,9 @@
 		8C98BFCD2966DEF4001054E1 /* YIT */ = {
 			isa = PBXGroup;
 			children = (
+				8C98BFFC296B101F001054E1 /* ImageUtil.swift */,
+				8C98BFF6296A1006001054E1 /* ApiEpisode.swift */,
+				8C98BFE62966E3A9001054E1 /* RaMData.swift */,
 				8C98BFCE2966DEF4001054E1 /* AppDelegate.swift */,
 				8C98BFD02966DEF4001054E1 /* SceneDelegate.swift */,
 				8C98BFD22966DEF4001054E1 /* ViewController.swift */,
@@ -63,6 +92,16 @@
 				8C98BFD72966DEF7001054E1 /* Assets.xcassets */,
 				8C98BFD92966DEF7001054E1 /* LaunchScreen.storyboard */,
 				8C98BFDC2966DEF7001054E1 /* Info.plist */,
+				8C98BFE22966E1FC001054E1 /* Character.swift */,
+				8C98BFE42966E29D001054E1 /* ApiManager.swift */,
+				8C98BFE82966EA77001054E1 /* CharacterCell.swift */,
+				8C98BFEA29683300001054E1 /* TableController.swift */,
+				8C98BFEC296833F5001054E1 /* CharacterTableCell.swift */,
+				8C98BFEE29683BB6001054E1 /* CharacterCustomCell.xib */,
+				8C98BFF02969E052001054E1 /* CharacterController.swift */,
+				8C98BFF2296A0249001054E1 /* EpisodeCell.swift */,
+				8C98BFF4296A0DF3001054E1 /* EpisodeController.swift */,
+				8C98BFF8296A103B001054E1 /* Episode.swift */,
 			);
 			path = YIT;
 			sourceTree = "<group>";
@@ -125,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C98BFEF29683BB6001054E1 /* CharacterCustomCell.xib in Resources */,
 				8C98BFDB2966DEF7001054E1 /* LaunchScreen.storyboard in Resources */,
 				8C98BFD82966DEF7001054E1 /* Assets.xcassets in Resources */,
 				8C98BFD62966DEF4001054E1 /* Main.storyboard in Resources */,
@@ -138,9 +178,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C98BFE72966E3A9001054E1 /* RaMData.swift in Sources */,
 				8C98BFD32966DEF4001054E1 /* ViewController.swift in Sources */,
 				8C98BFCF2966DEF4001054E1 /* AppDelegate.swift in Sources */,
+				8C98BFF5296A0DF3001054E1 /* EpisodeController.swift in Sources */,
+				8C98BFF3296A0249001054E1 /* EpisodeCell.swift in Sources */,
+				8C98BFF12969E052001054E1 /* CharacterController.swift in Sources */,
+				8C98BFE92966EA77001054E1 /* CharacterCell.swift in Sources */,
+				8C98BFED296833F5001054E1 /* CharacterTableCell.swift in Sources */,
+				8C98BFEB29683300001054E1 /* TableController.swift in Sources */,
+				8C98BFF9296A103B001054E1 /* Episode.swift in Sources */,
+				8C98BFFD296B101F001054E1 /* ImageUtil.swift in Sources */,
+				8C98BFF7296A1006001054E1 /* ApiEpisode.swift in Sources */,
+				8C98BFE52966E29D001054E1 /* ApiManager.swift in Sources */,
 				8C98BFD12966DEF4001054E1 /* SceneDelegate.swift in Sources */,
+				8C98BFE32966E1FC001054E1 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +384,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
